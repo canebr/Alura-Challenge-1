@@ -1,0 +1,15 @@
+header {
+	background: #BBBBBB;
+	padding: 20px 0;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif, sans-serif;
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+}
+
