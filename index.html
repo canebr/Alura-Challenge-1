@@ -14,21 +14,49 @@
 	</head>
 
 	<body>
+
 		<header>
-				<h1> <strong>Criptografar e descriptografar um texto</strong></h1>
+				<h1 class="cabecalho"> Criptografar e descriptografar um texto</h1>
 		</header>
 
 
-		<main>
-			<h2>Digite seu texto</h2>
-			<label for="mensagem"></label>
-			<textarea cols="70" rows="30" id="digite-texto" class="input-padrao" required></textarea>
+		<main class="corpo">
 
-			<p class="observacao"> * apenas letras minusculas e sem acento</p>
+			<section class="form entrada">
+				<form action="">
+					<h2 class="segundo-cabecalho">Digite seu texto</h2>
+					<label for="mensagem"></label>
+					
+					<!-- <input class="texto-entrada" type="text" name="mensagem" id="mensagem" placeholder="insira o texto aqui"> -->
+
+					<textarea class="texto-entrada" cols="70" rows="30" id="mensagem" id="mensagem" placeholder="insira o texto aqui" required></textarea>
+
+					<p class="observacao"> * apenas letras minusculas e sem acento</p>
 
 
-			<input type="submit" value="Criptogtafar" class="enviar">		
-			<input type="submit" value="Descriptografar" class="enviar">
+					<input class="enviar" type="submit" value="Criptogtafar" id="criptografar">		
+					<input class="enviar" type="submit" value="Descriptografar" id ="descriptografar">
+				</form>
+			</section>
+
+
+
+			<section class="form entrada">
+				<form action="">
+					<h2 class="segundo-cabecalho">Mensagem Criptografada</h2>
+					<label for="mensagem"></label>
+
+					<!-- <input class="texto-entrada" type="text" name="encripto" id="encripto" placeholder="nenhuma mensagem ainda"> -->
+
+					<textarea class="texto-entrada" cols="70" rows="30" id="mensagem" id="mensagem" placeholder="nenhuma mensagem ainda" required></textarea>
+
+
+					<p class="observacao"> * copiar para área de transferência</p>
+
+					<input class="enviar" type="submit" value="copiar" id="transferencia">
+				</form>
+			</section>
+
 
 		</main>
 
