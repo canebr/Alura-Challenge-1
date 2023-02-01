@@ -2,6 +2,7 @@
 <html lang="pt-br">
 	<head>
 		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width">
 		<title>Challenge 1 - Criptografia de texto</title>
 		<link rel="stylesheet" href="reset.css">
@@ -9,14 +10,22 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-		<link rel="shortcut icon" href="C.ico">
+		<link rel="shortcut icon" href="imagens/favicon.ico">
 		<meta name="Keywords" content="Carlos Estima,Carlos Nunes Estima,Estima,carlosestima,criptografia" />
 	</head>
 
 	<body>
 
 		<header>
-				<h1 class="cabecalho"> Criptografar e descriptografar um texto</h1>
+
+			<div class="caixa">
+				<h1><img class="logo" src="imagens/logo.jpg" alt="Logotico de Carlos Estima"></h1>
+
+				<nav>
+					<a> Criptografar e descriptografar um texto<a>
+				</nav>
+			</div>			
+
 		</header>
 
 
@@ -41,7 +50,10 @@
 					<h2 class="segundo-cabecalho">Mensagem Criptografada</h2>
 					<label for="mensagem"></label>
 
-					<textarea class="texto-entrada" cols="70" rows="30" value="encriptada" id="encriptada" placeholder="nenhuma mensagem ainda" required></textarea>
+					<!-- <textarea class="texto-saida" cols="70" rows="30" value="encriptada" id="encriptada"></textarea> -->
+
+					<textarea class="texto-saida" cols="70" rows="30" value="encriptada" id="encriptada" placeholder="nenhuma mensagem ainda"></textarea>
+
 
 					<p class="observacao"> * copiar para área de transferência</p>
 
