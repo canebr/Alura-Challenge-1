@@ -31,43 +31,42 @@
 
 		<main class="corpo">
 
-			<section class="form entrada">
-				<form action="">
+			<section class="entrada">
+
 					<h2 class="segundo-cabecalho">Digite seu texto</h2>
 				
-					<label for="mensagem"></label>
-					<textarea class="texto-entrada" cols="70" rows="30" ivalue="mensagem" id="mensagem" placeholder="insira o texto aqui" required></textarea>
+					<textarea class="texto-entrada" cols="70" rows="30" placeholder="insira o texto aqui" required></textarea>
 
 					<p class="observacao"> * apenas letras minusculas e sem acento</p>
 
-					<input class="enviar" type="submit" value="Criptogtafar" id="criptografar">		
-					<input class="enviar" type="submit" value="Descriptografar" id ="descriptografar">
-				</form>
+			        <div class="botoes">
+            		    <button class="cripto" onclick="cripto()">Criptografar</button>
+                		<button class="descripto" onclick="descripto()">Descriptografar</button>
+            		</div>
+
 			</section>
 
-			<section class="form entrada">
-				<form action="">
+			<section class="entrada">
+
 					<h2 class="segundo-cabecalho">Mensagem Criptografada</h2>
-					<label for="mensagem"></label>
 
-					<!-- <textarea class="texto-saida" cols="70" rows="30" value="encriptada" id="encriptada"></textarea> -->
-
-					<textarea class="texto-saida" cols="70" rows="30" value="encriptada" id="encriptada" placeholder="nenhuma mensagem ainda"></textarea>
-
+					<textarea class="texto-saida" cols="70" rows="30" placeholder="nenhuma mensagem ainda"></textarea>
 
 					<p class="observacao"> * copiar para área de transferência</p>
 
-					<input class="enviar" type="submit" value="transferencia" id="transferencia">
-				</form>
-			</section>
+					<button class="transfere" onclick="copiar()">Transferencia</button>
 
+			</section>
 
 		</main>
 
 
 		<footer>
-
+			<h6 class="rodape">Desenvolvido por Cane</h6>
 		</footer>
+
+
+		<script src="script.js"></script>
 
 	</body>
 </html>

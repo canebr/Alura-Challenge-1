@@ -58,6 +58,7 @@ nav {
   width: 100%;
   width: 30vw;
   height: 20vw;
+  text-transform: lowercase;
 }
 
 .texto-saida {
@@ -85,7 +86,7 @@ nav {
 	font-size: 15px;
 }
 
-.enviar {
+.cripto {
 	width:40%;
 	padding: 15px 0px;
 	background: #e6ffff;
@@ -96,18 +97,64 @@ nav {
 	border-radius: 15px;
 	transition: 1s all;
 	cursor: pointer;
+	text-align: center;
 }
 
-.enviar:hover {
+.cripto:hover {
 	background: #004d4d;
 	color: #ffffff;
 	border: solid ;
 }
 
-.banner {
-	width: 100%;
+
+.descripto {
+	width:40%;
+	padding: 15px 0px;
+	background: #e6ffff;
+	color: #000000;
+	font-weight: bold;
+	font-size: 18px;
+	border: solid #004d4d;
+	border-radius: 15px;
+	transition: 1s all;
+	cursor: pointer;
+	text-align: center;
 }
 
+.descripto:hover {
+	background: #004d4d;
+	color: #ffffff;
+	border: solid ;
+}
+
+.transfere {
+	width:40%;
+	padding: 15px 0px;
+	background: #e6ffff;
+	color: #000000;
+	font-weight: bold;
+	font-size: 18px;
+	border: solid #004d4d;
+	border-radius: 15px;
+	transition: 1s all;
+	cursor: pointer;
+	text-align: center;	
+}
+
+.transfere:hover {
+	background: #004d4d;
+	color: #ffffff;
+	border: solid ;
+}
+
+
+.rodape {
+	color: #000000;
+	font-weight: bold;
+	font-size: 10px;
+	padding: 50px 50px 20px;
+	text-align: center;	
+}
 
 @media screen and (max-width: 480px) {
 
