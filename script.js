@@ -1,5 +1,6 @@
 const textoEntrada = document.querySelector(".texto-entrada");
 const textoSaida = document.querySelector(".texto-saida");
+const imagemFundo = document.getElementById("imagem")
 
 /*As "chaves" de criptografia que utilizaremos são:
 A letra "e" é convertida para "enter"
@@ -10,7 +11,8 @@ A letra "u" é convertida para "ufat"*/
 
 function cripto() {
 	const textoEncriptado = criptografar(textoEntrada.value);
-	textoSaida.value = ""
+	textoSaida.value = "";
+	imagemFundo.style.backgroundImage = "none";
 	textoSaida.value = textoEncriptado;
 	textoEntrada.value = "";
 }
@@ -28,7 +30,8 @@ function criptografar (stringEncriptada) {
 
 function descripto() {
 	const textoDesencriptado = descriptografar(textoEntrada.value);
-	textoSaida.value = ""
+	textoSaida.value = "";
+	imagemFundo.style.backgroundImage = "none";
 	textoSaida.value = textoDesencriptado;
 	textoEntrada.value = "";
 }
